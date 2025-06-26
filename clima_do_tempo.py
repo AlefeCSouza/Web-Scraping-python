@@ -9,7 +9,7 @@ url = "https://www.tempo.com/sao-paulo.htm"
 
 # Faz a requisição
 resposta = requests.get(url)
-# vai dar erro se a página não carregar
+#caso a pagina não carregue retornara o erro 
 resposta.raise_for_status()  
 
 # Parsear o HTML
